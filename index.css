@@ -1,0 +1,53 @@
+body {
+    background-color: #f2e9e4;
+    color: #453823 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background:#c9ada7;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex; 
+    gap: 12px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:#453823;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.info-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.aboutme {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.image {
+    margin-right: 70px;
+    width: 30rem;
+    height: 28rem;
+    margin-top: 40px;
+}
+
+.info {
+    margin-left: 30px;
+}
