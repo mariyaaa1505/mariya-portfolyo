@@ -67,7 +67,7 @@ body {
 }
 .snimka{
     width: 28rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
 
 }
 .snimka2{
@@ -87,4 +87,16 @@ width: 20rem;
 .snimka4{
     width: 25rem;
     margin-left: 2rem;
+}
+
+.snimka5{
+    width: 20rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.snimka6{
+    width: 20rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
