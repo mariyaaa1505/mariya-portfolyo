@@ -65,76 +65,28 @@ body {
     font-weight: 400;
     margin-bottom: 3rem;
 }
-.snimka{
-    width: 28rem;
-    margin-left: 1rem;
 
-}
-.snimka2{
-    width: 25rem;
-    margin-left: 2rem;
+
+.snimka-horizontalno {
+    height: 20rem;
+    width: auto;
+    margin: 1%;
     border-radius: 10%;
-    border: white  5px solid;
-    transition: transform 0.5s ease-in;
+    border: white 5px solid;
 }
 
-.snimka3{
-    margin-left: 2rem;
+
+.snimka-vertikolno{
     width: 20rem;
+    height: auto;
+    margin: 1%;
     border-radius: 10%;
-    border: white  5px solid;
-    transition: transform 0.5s ease-in;
-}
+    border: white 5px solid;
 
-.snimka4{
-    width: 25rem;
-    margin-left: 2rem;
-    border-radius: 10%;
-    border: white  5px solid;
-    transition: transform 0.5s ease-in;
-}
+    grid-row: span 2;
+    grid-column: span 1;
 
-.snimka5{
-    width: 20rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
-    border-radius: 10%;
-    border: white  5px solid;
-    transition: transform 0.5s ease-in;
-}
-
-.snimka6{
-    width: 20rem;
-    margin-left: 6rem;
-    margin-top: 2rem;
-    border-radius: 10%;
-    border: white  5px solid;
-    transition: transform 0.5s ease-in;
-}
-
-.snimka7{
-    width: 20rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
-    border-radius: 10%;
-    border: white  5px solid;
-    transition: transform 0.5s ease-in;
-}
-
-.snimka8{
-    width: 20rem;
-    margin-left: 6rem;
-    border-radius: 10%;
-    border: white  5px solid;
-    transition: transform 0.5s ease-in;
-}
-
-.snimka9{
-    width: 15.5rem;
-    margin-left: 9rem;
-    border-radius: 10%;
-    border: white  5px solid;
-}
+} 
 
 .hover-transition {
     transition: transform 0.3s ease-in;
@@ -146,4 +98,12 @@ body {
 
 .headline {
     margin-left: 45px; 
+}
+
+.WrapPanel{
+    display: grid;
+    grid-template-rows: 10;
+    grid-template-columns: 9;
+    justify-content: baseline;
+    grid-template:subgrid ;
 }
