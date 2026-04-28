@@ -69,7 +69,7 @@ body {
 
 .snimka-horizontalno {
     height: 20rem;
-    width: auto;
+    width: 30rem;
     margin: 1%;
     border-radius: 10%;
     border: white 5px solid;
@@ -78,14 +78,13 @@ body {
 
 .snimka-vertikolno{
     width: 20rem;
-    height: auto;
+    height: 30rem;
     margin: 1%;
     border-radius: 10%;
     border: white 5px solid;
 
     grid-row: span 2;
     grid-column: span 1;
-
 } 
 
 .hover-transition {
@@ -107,3 +106,7 @@ body {
     justify-content: baseline;
     grid-template:subgrid ;
 }
+
+ #vertikalni-imgs{
+    margin-left: 5rem;
+ }
